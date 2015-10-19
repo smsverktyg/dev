@@ -91,12 +91,7 @@ app = {
             var password = $('#password').val();
         	app._login(username, password, app.actions.numbers_reload);
         },
-        add_number: function(){
-            app._post('Numbers', {
-                country: 'se',
-                sms_url: 'http://webb.io/46elks/2/callback.php'
-            }, app.actions.numbers_reload);
-        },
+	add_number: function(){},
         reload_numbers: function(){
             app._get('Numbers', {}, app.gui.update_number_list);
         },
