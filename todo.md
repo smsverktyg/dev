@@ -1,6 +1,7 @@
 # To do
 - [ ] Varningstext vid för långt namn på avsändare, alternativt att det max går att skriva 11 tecken i det fältet.
 - [ ] Responsiv design
+- [ ] Inloggning med simpel user/pw istället för api-uppgifterna
 - [ ] Få till knappar under “mottagare-fliken” där man klickar vilka listor man vill göra utskicket till, listorna med mottagare läggs i startskedet till av admin, man kan välja alla listor om man vill det, om man endast vill ange ett manuellt ifylld mottagare ska ingen lista väljas.
 
 
@@ -14,6 +15,29 @@
 - [ ] Funktion som bekräftar att meddelandet blivit skickat (så man kan vara säker att det inte blivit något fel), även kallad en leveransrapport.
 - [ ] Säkerhetsspärr som känner av ifall systemet börjar skicka ovanligt stora mängder meddelanden, som säkerhet ifall systemet skulle bli utsatt för intrång/bli hackat.
 - [ ] Räknare som visar antal skickade meddelanden för kontot.
+
+
+
+___
+
+## Första fas:
+- [ ] "Grå-markerad" ej ändringsbar avsändare (endast admin kan ändra)
+- [ ] Kunna välja avsändare från förhandsinlagda avsändare i lista
+
+___
+
+## Andra fas:
+- [ ] Subkonton
+- [ ] Räknare för antal utskickade SMS
+- [ ] Funktion att spara avsändare (Klicka i ruta)
+
+
+___
+
+## Tredje fas:
+- [ ] Subkonton
+- [ ] Koppling Billogram
+
 
 ___
 
